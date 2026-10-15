@@ -1,0 +1,40 @@
+# Secrets and local environment settings
+.env
+.env.*
+*.env
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secrets/
+credentials.json
+service-account*.json
+.npmrc
+.pypirc
+.netrc
+
+# Dependencies and local runtimes
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+.python-version.local
+
+# Build and tool caches
+.wrangler/
+.cache/
+.tmp/
+tmp/
+*.log
+site-source.tar.gz
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
